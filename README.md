@@ -36,8 +36,8 @@
 ## 📫 Contato
 
 - ✉️ Email: gabrielcostac100@gmail.com
-- ▷ [Youtube]: https://www.youtube.com/c/GabrielConceicao
-- 💼 [LinkedIn](https://www.linkedin.com/in/seuusuario)  
+- ▷ [Youtube](https://www.youtube.com/c/GabrielConceicao)
+- 💼 [LinkedIn](https://www.linkedin.com/in/gabriel-costac/)  
 - 🌐 [Portfólio](https://ogdatecnologia.wordpress.com/)
 
 ---
