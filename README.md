@@ -11,7 +11,7 @@
 - 🔧 Trabalho com **web design, programação, redes, robótica e manutenção de computadores**
 - 🧠 Gosto de criar soluções tecnológicas usando **HTML, CSS, JavaScript, Python, C++ e Arduino**
 - 🎓 Formação em **Tecnologia da Informação**
-- 🧑‍🏫 Instrutor de TI na Digital Max (2017 - 2024)
+- 🧑‍🏫 Instrutor de TI (2017 - 2025)
 - 🌍 Idiomas: Inglês (básico) e Espanhol (intermediário)
 
 ---
