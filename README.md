@@ -91,3 +91,4 @@ python3 ocr_para_xlsx.py foto.jpg saida.xlsx --idioma por
 A planilha gerada contém:
 - Aba **linhas**: texto separado por linha reconhecida.
 - Aba **texto_completo**: texto integral por imagem.
+- Aba **tabela**: tentativa de separar colunas de itens em `produto`, `descricao`, `unidade`, `preco_normal`, `quantidade`, `valor_total` (ideal para listas como tabelas de pedidos).
