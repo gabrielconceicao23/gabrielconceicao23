@@ -46,3 +46,49 @@
   <img src="https://github-readme-stats.vercel.app/api?username=gabrielconceicao23&show_icons=true&theme=github_dark" alt="Gabriel Conceição GitHub stats" />
 </p>
 
+
+---
+
+## 🧾 Script OCR para XLSX
+
+Criei um script em Python para extrair texto de fotos e organizar em planilha Excel.
+
+### Arquivos
+
+- `ocr_para_xlsx.py`
+- `requirements.txt`
+
+### Instalação
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+> É necessário ter o **Tesseract OCR** instalado no sistema.
+
+### Uso
+
+Extrair de uma imagem:
+
+```bash
+python3 ocr_para_xlsx.py caminho/da/foto.jpg saida.xlsx
+```
+
+Extrair de todas as imagens de uma pasta:
+
+```bash
+python3 ocr_para_xlsx.py caminho/da/pasta resultado_ocr.xlsx
+```
+
+Escolher idioma do OCR:
+
+```bash
+python3 ocr_para_xlsx.py foto.jpg saida.xlsx --idioma por
+```
+
+A planilha gerada contém:
+- Aba **linhas**: texto separado por linha reconhecida.
+- Aba **texto_completo**: texto integral por imagem.
+- Aba **tabela**: tentativa de separar colunas de itens em `produto`, `descricao`, `unidade`, `preco_normal`, `quantidade`, `valor_total` (ideal para listas como tabelas de pedidos).
